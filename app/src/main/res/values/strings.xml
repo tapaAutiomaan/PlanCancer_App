@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Plan Cancer Actualités</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_news_activity_drawer">Plan Cancer Actualités</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+
+    <string name="IntroDetail">
+</string>
+
+<string name="introdetail2"/>
+
+    <string name="about_app">
+</string>
+
+    <string name="app_id">443462009198186</string>
+
+
+    <!--Plan Cancer Resources -->
+
+
+    <string name="un_auteur">Un Auteur</string>
+    <string name="une_date">Une Date</string>
+    <string name="titre_carte">Le Titre de La Carte est bon et long</string>
+
+
+    <string name="comment_action">Aller au Post</string>
+    <string name="share_action">Partager</string>
+
+
+
+    <string name="pc_axe_strat1">Améliorer la Prévention Contre les Facteurs de Risque</string>
+
+    <string name="pc_axe_strat1_obj1">Réduire la Tabagisme dans toute la Populationet en particulier chez les enfants, les adolescents et les jeunes</string>
+    <string name="pc_axe_strat1_obj2">Renforcer la protection contre l\'exposition à la fumée du tabac</string>
+    <string name="pc_axe_strat2">Améliorer Le Dépistage de Certains Cancers</string>
+    <string name="pc_axe_strat3">Améliorer Le Diagnostique Du Cancer</string>
+    <string name="pc_axe_strat4">Redynamiser Le Traitement</string>
+    <string name="pc_axe_strat5">Organiser l\'Orientation, L\'Accompagnement et le suivi du Patient</string>
+    <string name="pc_axe_strat6">Développer le Système d\'Information et la Communication sur les Cancers</string>
+    <string name="pc_axe_strat7">Renforcer La Formation et la Recherche sur les Cancers</string>
+    <string name="pc_axe_strat8">Renforcer les Capacités de financement de la prise en Charge des Cancers</string>
+    <string name="votre_commentaire">Votre Commentaire</string>
+    <string name="valider">Valider</string>
+    <string name="html_test"><br/><br/><br/> testing this new fonctionnnality <br/> http://www.google.com  www.google.com  google.com
+    cb_medjdoub@esi.dz
+    </string>
+
+
+</resources>

@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".plancancernews.presentation.fragments.principal_view.library.NewsCardsFragment">
+
+
+    <com.tuesda.walker.circlerefresh.CircleRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swiperNews"
+        >
+
+        <it.gmariotti.cardslib.library.view.CardListView
+            android:id="@+id/newsCardList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </it.gmariotti.cardslib.library.view.CardListView>
+
+    </com.tuesda.walker.circlerefresh.CircleRefreshLayout>
+
+
+
+</FrameLayout>

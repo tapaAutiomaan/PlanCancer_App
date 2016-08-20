@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blend_modes">
+        <item>Add</item>
+        <item>Clear</item>
+        <item>Darken</item>
+        <item>Destination (DST)</item>
+        <item>Destination atop (DST_ATOP)</item>
+        <item>Destination in (DST_IN)</item>
+        <item>Destination out (DST_OUT)</item>
+        <item>Destination over (DST_OVER)</item>
+        <item>Lighten</item>
+        <item>Multiply</item>
+        <item>Overlay</item>
+        <item>Screen</item>
+        <item>Source (SRC)</item>
+        <item>Source atop (SRC_ATOP)</item>
+        <item>Source in (SRC_IN)</item>
+        <item>Source out (SRC_OUT)</item>
+        <item>Source over (SRC_OVER)</item>
+        <item>XOR</item>
+    </string-array>
+    <color name="cardview_dark_background">#FF202020</color>
+    <color name="cardview_light_background">#FFFAFAFA</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="deep_purple">#673ab7</color>
+    <color name="green">#259b24</color>
+    <color name="light_blue">#e7e9fd</color>
+    <color name="light_purple">#e1bee7</color>
+    <color name="red">#e51c23</color>
+    <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable>
+    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="cardview_default_radius">2dp</dimen>
+    <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
+    <string name="app_name">DrawableTinting</string>
+    <string name="blend_mode_label">Blend Mode:</string>
+    <string name="intro_message">
+        
+        
+            
+            Sample that shows applying tinting and color filters to Drawables both programmatically
+            and as Drawable resources in XML.
+            \n\nTinting is set on a nine-patch drawable through the "tint" and "tintMode" parameters.
+            A color state list is referenced as the tint color, which defines colors for different
+            states of a View (for example disabled/enabled, focused, pressed or selected).
+            \n\nProgrammatically, tinting is applied to a Drawable through its "setColorFilter" method,
+            with a reference to a color and a PorterDuff blend mode. The color and blend mode can be
+            changed from the UI to see the effect of different options.
+            
+        
+        
+    </string>
+    <string name="prog_tint_label">View with tinting set programmatically:</string>
+    <string name="resource_tint_button">Tinting set by StateDrawable</string>
+    <string name="resource_tint_label">Button with tinting set by state color list as resource:</string>
+    <string name="sample_hide_log">Hide Log</string>
+    <string name="sample_show_log">Show Log</string>
+    <string name="value_alpha">Alpha: %d\%</string>
+    <string name="value_blue">Blue: %d\%</string>
+    <string name="value_green">Green: %d\%</string>
+    <string name="value_red">Red: %d\%</string>
+    <style name="AppTheme" parent="Theme.Sample"/>
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="Theme.Base" parent="android:Theme.Light"/>
+    <style name="Theme.Sample" parent="Theme.Base"/>
+    <style name="Widget"/>
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>

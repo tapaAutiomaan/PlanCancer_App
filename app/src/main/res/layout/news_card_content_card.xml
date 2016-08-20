@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:clipToPadding="false"
+
+    >
+
+        <ImageView
+            android:id="@+id/newsImg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#232323"
+            android:elevation="200dp"
+            android:src="@drawable/plancancer" />
+
+        <TextView
+            android:id="@+id/newsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/newsImg"
+            android:gravity="center"
+            android:background="#32ca5404"
+            android:text="جيل الترجيح أكاديمية"
+            android:textSize="16sp" />
+        <com.facebook.share.widget.ShareButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/newsTitle"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow"
+        android:background="@drawable/toolbar_dropshadow"
+        android:layout_below="@id/newsTitle"
+        />
+
+
+</RelativeLayout>

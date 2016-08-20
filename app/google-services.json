@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "788595730735",
+    "firebase_url": "https://plancancernews.firebaseio.com",
+    "project_id": "plancancernews",
+    "storage_bucket": "plancancernews.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788595730735:android:32892d07b8896134",
+        "android_client_info": {
+          "package_name": "com.plancancer.plancancernews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788595730735-tusl88v8tpbs7ueba5is2q2bm43jid24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.plancancer.plancancernews",
+            "certificate_hash": "31658E85CBE7CF546134FD8D7845C6DEDABE8CE4"
+          }
+        },
+        {
+          "client_id": "788595730735-9m7g519l4ctvl29uq18fkik9813bavbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYgh47oAEWUt6XZ1dZ4zYPEMiLFlG-dWY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788595730735-9m7g519l4ctvl29uq18fkik9813bavbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

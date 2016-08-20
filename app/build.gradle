@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.0"
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        applicationId "com.plancancer.plancancernews"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories { mavenCentral() }
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //    compile project(':circlerefresh')
+    compile project(':AndroidPullRefreshLayout')
+    compile project(':ParallaxScroll')
+    //compile project(':volley')
+    //    compile project(':CircularFloatingMenu')
+    compile project(':volley')
+    //compile project(':CircularFloatingMenu')
+    compile project(':CircularProgessButton')
+    compile project(':AndroidFAB')
+    //compile project(':RippleEffect')
+    //compile 'com.facebook.android:facebook-android-sdk:4.6.0'
+    compile 'com.google.firebase:firebase-core:9.4.0'
+    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile 'com.android.support:recyclerview-v7:24.1.1'
+    compile 'com.android.support:cardview-v7:24.1.1'
+    compile 'com.android.support:design:24.1.1'
+    compile 'com.android.support:support-v4:24.1.1'
+}

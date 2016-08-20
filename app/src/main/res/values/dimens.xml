@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">250dp</dimen>
+    <dimen name="toolbar_shadow">8dp</dimen>
+
+
+    <!-- Expandable list-->
+    <dimen name="navdrawer_explist_child_layout_h">100dp</dimen>
+    <dimen name="navdrawer_explist_header_margin">100dp</dimen>
+    <dimen name="navdrawer_explist_child_margin">60dp</dimen>
+    <!--Text Size-->
+
+    <dimen name="navdrawer_explist_header_txt">25sp</dimen>
+    <dimen name="navdrawer_explist_child_txt">20sp</dimen>
+    <dimen name="toolbar_text_size">20sp</dimen>
+
+
+
+    <!-- News Card Content-->
+    <dimen name="news_card_image_height">200dp</dimen>
+    <dimen name="news_card_title_size">16sp</dimen>
+
+    <dimen name="news_infos_distance">75dp</dimen>
+    <dimen name="news_infos_margin_top">20dp</dimen>
+
+    <dimen name="news_card_padding">25dp</dimen>
+
+
+
+
+</resources>

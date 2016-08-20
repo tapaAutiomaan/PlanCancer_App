@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.plancancer.plancancernews.presentation.activities.NewsActivity"/>
+      <point      
+        x = "1428"      
+        y = "752"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.plancancer.plancancernews.presentation.activities.NewsActivity"/>
+      <point      
+        x = "1768"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.plancancer.plancancernews.presentation.activities.NewsActivityDrawer"/>
+      <point      
+        x = "516"      
+        y = "732"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.plancancer.plancancernews.presentation.activities.NewsActivityDrawer"/>
+      <point      
+        x = "1768"      
+        y = "1480"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

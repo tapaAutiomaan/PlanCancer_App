@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/plancancer"
+        android:background="#ffffffff"
+        />
+    <!--
+    <ExpandableListView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="#ffffffff"
+        android:divider="#ffffffff"
+        android:dividerHeight="2dp"
+        android:id="@+id/drawerList"
+        tools:context="com.jiltargihnews.presentation.fragments.NavigationDrawerFragment" />
+        />
+
+-->
+    <ExpandableListView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="#ffffffff"
+        android:divider="#ffffffff"
+        android:dividerHeight="2dp"
+        android:id="@+id/drawerList"
+        />
+
+</LinearLayout>
+
+
