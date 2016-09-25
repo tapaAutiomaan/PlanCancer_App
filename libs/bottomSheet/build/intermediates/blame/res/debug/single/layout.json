@@ -1,22 +1,22 @@
 [
     {
-        "merged": "D:\\ETUDES\\Hors INI\\Professional\\DoubleClick\\Backups\\PlanCancer_App\\libs\\bottomSheet\\build\\intermediates\\res\\merged\\debug\\layout\\bs_grid_entry.xml",
-        "source": "D:\\ETUDES\\Hors INI\\Professional\\DoubleClick\\Backups\\PlanCancer_App\\libs\\bottomSheet\\src\\main\\res\\layout\\bs_grid_entry.xml"
+        "merged": "E:\\Yazid\\Professional\\PlanCancer\\PlanCancer_App\\libs\\bottomSheet\\build\\intermediates\\res\\merged\\debug\\layout\\bs_header.xml",
+        "source": "E:\\Yazid\\Professional\\PlanCancer\\PlanCancer_App\\libs\\bottomSheet\\src\\main\\res\\layout\\bs_header.xml"
     },
     {
-        "merged": "D:\\ETUDES\\Hors INI\\Professional\\DoubleClick\\Backups\\PlanCancer_App\\libs\\bottomSheet\\build\\intermediates\\res\\merged\\debug\\layout\\bs_list_entry.xml",
-        "source": "D:\\ETUDES\\Hors INI\\Professional\\DoubleClick\\Backups\\PlanCancer_App\\libs\\bottomSheet\\src\\main\\res\\layout\\bs_list_entry.xml"
+        "merged": "E:\\Yazid\\Professional\\PlanCancer\\PlanCancer_App\\libs\\bottomSheet\\build\\intermediates\\res\\merged\\debug\\layout\\bs_list_entry.xml",
+        "source": "E:\\Yazid\\Professional\\PlanCancer\\PlanCancer_App\\libs\\bottomSheet\\src\\main\\res\\layout\\bs_list_entry.xml"
     },
     {
-        "merged": "D:\\ETUDES\\Hors INI\\Professional\\DoubleClick\\Backups\\PlanCancer_App\\libs\\bottomSheet\\build\\intermediates\\res\\merged\\debug\\layout\\bs_list_divider.xml",
-        "source": "D:\\ETUDES\\Hors INI\\Professional\\DoubleClick\\Backups\\PlanCancer_App\\libs\\bottomSheet\\src\\main\\res\\layout\\bs_list_divider.xml"
+        "merged": "E:\\Yazid\\Professional\\PlanCancer\\PlanCancer_App\\libs\\bottomSheet\\build\\intermediates\\res\\merged\\debug\\layout\\bs_grid_entry.xml",
+        "source": "E:\\Yazid\\Professional\\PlanCancer\\PlanCancer_App\\libs\\bottomSheet\\src\\main\\res\\layout\\bs_grid_entry.xml"
     },
     {
-        "merged": "D:\\ETUDES\\Hors INI\\Professional\\DoubleClick\\Backups\\PlanCancer_App\\libs\\bottomSheet\\build\\intermediates\\res\\merged\\debug\\layout\\bs_header.xml",
-        "source": "D:\\ETUDES\\Hors INI\\Professional\\DoubleClick\\Backups\\PlanCancer_App\\libs\\bottomSheet\\src\\main\\res\\layout\\bs_header.xml"
+        "merged": "E:\\Yazid\\Professional\\PlanCancer\\PlanCancer_App\\libs\\bottomSheet\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_sheet_dialog.xml",
+        "source": "E:\\Yazid\\Professional\\PlanCancer\\PlanCancer_App\\libs\\bottomSheet\\src\\main\\res\\layout\\bottom_sheet_dialog.xml"
     },
     {
-        "merged": "D:\\ETUDES\\Hors INI\\Professional\\DoubleClick\\Backups\\PlanCancer_App\\libs\\bottomSheet\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_sheet_dialog.xml",
-        "source": "D:\\ETUDES\\Hors INI\\Professional\\DoubleClick\\Backups\\PlanCancer_App\\libs\\bottomSheet\\src\\main\\res\\layout\\bottom_sheet_dialog.xml"
+        "merged": "E:\\Yazid\\Professional\\PlanCancer\\PlanCancer_App\\libs\\bottomSheet\\build\\intermediates\\res\\merged\\debug\\layout\\bs_list_divider.xml",
+        "source": "E:\\Yazid\\Professional\\PlanCancer\\PlanCancer_App\\libs\\bottomSheet\\src\\main\\res\\layout\\bs_list_divider.xml"
     }
 ]

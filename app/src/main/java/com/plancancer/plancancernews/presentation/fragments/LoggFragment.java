@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.plancancer.R;
+import com.plancancer.plancancernews.AuthServiceConsumer;
 import com.plancancer.plancancernews.presentation.activities.NewsActivityDrawer;
 import com.plancancer.plancancernews.persistance.model.PlanCancerAccount;
 import com.plancancer.plancancernews.service.PlanCancerREStAuthenticator;
@@ -16,7 +17,7 @@ import com.plancancer.plancancernews.service.PlanCancerREStAuthenticator;
 /**
  * Created by Yazid on 01/04/2016.
  */
-public class LoggFragment extends Fragment implements View.OnClickListener {
+public class LoggFragment extends Fragment implements AuthServiceConsumer,View.OnClickListener {
 
     public static final String ARG_PAGE = "LOGG_PAGE";
 
@@ -54,14 +55,22 @@ public class LoggFragment extends Fragment implements View.OnClickListener {
     }
 
 
-    @Override
     public void onClick(View v) {
-        if(v==this.btnSubmit){
-            PlanCancerAccount.getSingleton().setLogin(this.loginEdit.getText().toString());
-            PlanCancerAccount.getSingleton().setPassword(this.passwordEdit.getText().toString());
-            //PlanCancerAccount.getAccount(this.loginEdit.getText().toString(),this.passwordEdit.getText().toString());
-            if(PlanCancerREStAuthenticator.getAuthenticator().authenticateUser())
-                ((NewsActivityDrawer)this.getActivity()).handleUserLogged();
-        }
+        if(v==this.btnSubmit)
+            this.startAuthProcedure();
+
+
+    }
+
+    public void startAuthProcedure(){
+        PlanCancerAccount.getSingleton().setLogin(this.loginEdit.getText().toString());
+        PlanCancerAccount.getSingleton().setPassword(this.passwordEdit.getText().toString());
+        PlanCancerREStAuthenticator.getAuthenticator().authenticateUser(this);
+
+    }
+
+    public void authenticationResult(Boolean authenticated) {
+        if(authenticated)
+            ((NewsActivityDrawer)this.getActivity()).handleUserLogged();
     }
 }

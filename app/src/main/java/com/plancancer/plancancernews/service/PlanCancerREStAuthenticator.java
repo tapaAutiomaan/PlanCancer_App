@@ -8,6 +8,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.plancancer.plancancernews.AuthServiceConsumer;
 import com.plancancer.plancancernews.core_services.applications.NewsApplication;
 import com.plancancer.plancancernews.core_services.network.VolleySingleton;
 import com.plancancer.plancancernews.persistance.model.PlanCancerAccount;
@@ -30,10 +31,9 @@ public class PlanCancerREStAuthenticator implements AuthenticationController {
     }
 
     @Override
-    public  boolean authenticateUser() {
+    public  void authenticateUser(final AuthServiceConsumer consumer) {
         //TODO appel au service REST et reception du resultat JSON
         RequestQueue queue= VolleySingleton.createRequestQueue();
-        PlanCancerAccount account=PlanCancerAccount.getCurrentAccount();
 
         //String url="http://10.0.22.101/plancancer/services/srv_connect.php?L="+account.getLogin()+"&P="+account.getPassword();
         //String url="http://10.0.22.101/plancancer/services/srv_connect.php?L=test&P=test";
@@ -43,7 +43,6 @@ public class PlanCancerREStAuthenticator implements AuthenticationController {
         //String url="http://plan-cancer.esi.dz/index.php?service=lg&L="+PlanCancerAccount.getCurrentAccount().getLogin()+"&P="+PlanCancerAccount.getCurrentAccount().getPassword();
         String url="http://plan-cancer.esi.dz/index.php?service=lg&L=test&P=test";
         Log.e("currentURL","url :: "+url);
-        Log.e("CurrentUSer: ",account.getLogin()+account.getPassword());
 
         JsonObjectRequest request=new JsonObjectRequest(Request.Method.GET, url,null, new Response.Listener<JSONObject>() {
             @Override
@@ -57,10 +56,12 @@ public class PlanCancerREStAuthenticator implements AuthenticationController {
                         PlanCancerAccount.getCurrentAccount().setId((String) response.get("pnom"));
                         PlanCancerAccount.getCurrentAccount().setId((String) response.get("photo"));
                         PlanCancerAccount.getCurrentAccount().setAuthenticated(true);
+                        consumer.authenticationResult(true);
                     }
                     Log.e("CurrentUSer from sing: ",PlanCancerAccount.getCurrentAccount().getLogin()+PlanCancerAccount.getCurrentAccount().getPassword());
                 }catch (Exception e){
                     Log.e("authenticateUser",e.getMessage());
+                    consumer.authenticationResult(false);
                 }
 
 
@@ -70,11 +71,12 @@ public class PlanCancerREStAuthenticator implements AuthenticationController {
             public void onErrorResponse(VolleyError error) {
                 //TODO edit the error response of the user authenticator
                 //Toast.makeText(NewsApplication.getNewsContext(),"Erreur : "+error.getMessage(),Toast.LENGTH_LONG).show();
+                consumer.authenticationResult(false);
             }
         });
         queue.add(request);
 
-        return PlanCancerAccount.isUserAuth();
+
 
     }
 

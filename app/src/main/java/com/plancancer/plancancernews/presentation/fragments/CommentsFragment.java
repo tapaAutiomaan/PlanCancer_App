@@ -93,9 +93,13 @@ public class CommentsFragment extends Fragment implements PlanCancerServiceConsu
 
     }
 
+
+
+
+
     private void initRefreshLayout() {
         this.refreshLayout = (SwipeRefreshLayout) this.getActivity().findViewById(R.id.swiperFragmentComments);
-        this.refreshLayout.setColorSchemeColors(R.color.red, R.color.green, R.color.blue);
+        this.refreshLayout.setColorSchemeColors(getResources().getColor(R.color.red), R.color.green, R.color.blue);
         this.refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -108,13 +112,6 @@ public class CommentsFragment extends Fragment implements PlanCancerServiceConsu
             }
         });
     }
-
-/*
-    @Override
-    public void onRefresh() {
-
-    }
-*/
 
     private void parseNewComments() {
         ServiceAccess.getServiceAccessController().getCommentsService(this);
@@ -156,8 +153,6 @@ public class CommentsFragment extends Fragment implements PlanCancerServiceConsu
 
     }
 
-
-    @Override
     public void consumeService(Object result) {
 
         //if(((List<PlanCancerComment>)result).size()>0)
@@ -180,7 +175,6 @@ public class CommentsFragment extends Fragment implements PlanCancerServiceConsu
         this.addParsedComments(((List<PlanCancerComment>) result));
     }
 
-    @Override
     public void consumeServiceMultiple(List<Object> result) {
         this.addParsedComments(((List<PlanCancerComment>) result.get(0)));
     }
