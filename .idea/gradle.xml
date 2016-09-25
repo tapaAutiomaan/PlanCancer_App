@@ -5,7 +5,35 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.10" />
+        <option name="gradleHome" value="E:\Yazid\AndroidDev\AndroidStudio2.0\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/libs/AndroidFAB" />
+            <option value="$PROJECT_DIR$/libs/AndroidPullRefreshLayout" />
+            <option value="$PROJECT_DIR$/libs/AndroidPullToRefresh" />
+            <option value="$PROJECT_DIR$/libs/CircularProgessButton" />
+            <option value="$PROJECT_DIR$/libs/ParallaxScroll" />
+            <option value="$PROJECT_DIR$/libs/RippleEffect" />
+            <option value="$PROJECT_DIR$/libs/bottomSheet" />
+            <option value="$PROJECT_DIR$/libs/volley" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/libs/AndroidFAB" />
+            <option value="$PROJECT_DIR$/libs/AndroidPullRefreshLayout" />
+            <option value="$PROJECT_DIR$/libs/AndroidPullToRefresh" />
+            <option value="$PROJECT_DIR$/libs/CircularProgessButton" />
+            <option value="$PROJECT_DIR$/libs/ParallaxScroll" />
+            <option value="$PROJECT_DIR$/libs/RippleEffect" />
+            <option value="$PROJECT_DIR$/libs/bottomSheet" />
+            <option value="$PROJECT_DIR$/libs/volley" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>

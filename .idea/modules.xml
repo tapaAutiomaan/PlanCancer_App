@@ -4,10 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/libs/AndroidFAB/AndroidFAB.iml" filepath="$PROJECT_DIR$/libs/AndroidFAB/AndroidFAB.iml" />
       <module fileurl="file://$PROJECT_DIR$/libs/AndroidPullRefreshLayout/AndroidPullRefreshLayout.iml" filepath="$PROJECT_DIR$/libs/AndroidPullRefreshLayout/AndroidPullRefreshLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/AndroidPullToRefresh/AndroidPullToRefresh.iml" filepath="$PROJECT_DIR$/libs/AndroidPullToRefresh/AndroidPullToRefresh.iml" />
       <module fileurl="file://$PROJECT_DIR$/libs/CircularProgessButton/CircularProgessButton.iml" filepath="$PROJECT_DIR$/libs/CircularProgessButton/CircularProgessButton.iml" />
       <module fileurl="file://$PROJECT_DIR$/libs/ParallaxScroll/ParallaxScroll.iml" filepath="$PROJECT_DIR$/libs/ParallaxScroll/ParallaxScroll.iml" />
       <module fileurl="file://$PROJECT_DIR$/PlanCancer_App.iml" filepath="$PROJECT_DIR$/PlanCancer_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/RippleEffect/RippleEffect.iml" filepath="$PROJECT_DIR$/libs/RippleEffect/RippleEffect.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/bottomSheet/bottomSheet.iml" filepath="$PROJECT_DIR$/libs/bottomSheet/bottomSheet.iml" />
       <module fileurl="file://$PROJECT_DIR$/libs/volley/volley.iml" filepath="$PROJECT_DIR$/libs/volley/volley.iml" />
     </modules>
   </component>
